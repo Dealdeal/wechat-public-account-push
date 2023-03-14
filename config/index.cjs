@@ -108,7 +108,7 @@ const USER_CONFIG = {
     USERS: [
       {
         // 想要发送的人的名字
-        name: '老婆0',
+        name: '用户0',
         // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
         // 使用其他通道时，请严格按照各个通道的教程进行填写
         id: 'o9Hve6sE_MZL9TAPTqL5NwodXlj4',
@@ -132,24 +132,24 @@ const USER_CONFIG = {
             type: '*生日', name: '用户', year: '1996', date: '09-09',
           },
           {
-            type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+            type: '节日', name: '新车纪念日', year: '2020', date: '09-03',
           },
           // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-          {
-            type: '生日', name: '李四', year: '1996', date: '09-31',
-          },
-          {
-            type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
-          }
+//           {
+//             type: '生日', name: '李四', year: '1996', date: '09-31',
+//           },
+//           {
+//             type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+//           }
         ],
         // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
         customizedDateList: [
-          // 在一起的日子
-          { keyword: 'love_day', date: '2022-09-08' },
-          // 结婚纪念日
-          { keyword: 'marry_day', date: '2022-09-09' },
-          // 退伍日
-          { keyword: 'ex_day', date: '2022-09-10' }
+//           // 在一起的日子
+//           { keyword: 'love_day', date: '2022-09-08' },
+//           // 结婚纪念日
+//           { keyword: 'marry_day', date: '2022-09-09' },
+//           // 退伍日
+//           { keyword: 'ex_day', date: '2022-09-10' }
         ],courseSchedule: null
         // 课程表相关配置
         // 如果courseSchedule不存在或者为空（null）则认为没有课程
@@ -379,10 +379,10 @@ const USER_CONFIG = {
       {
         keyword: 'lover_prattle',
         contents: [
-          '因为太喜欢你，所以看谁都像是情敌。',
-          '申请成为你爱里的永久居民。',
-          '你很傻，你很笨，可我还是很羡慕你，因为你有我',
-          '遇见你，就好像捡到了100斤的运气'
+          '让刻苦成为习惯，用汗水浇灌未来',
+          '每个人都有故事，只是演绎方式不同',
+          '既然梦想在远方，那就努力去追赶。',
+          '生活可以将就，生活也可以讲究'
         ],
       }
       // 你可以不断按格式往下增加
