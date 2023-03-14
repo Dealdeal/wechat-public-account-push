@@ -47,10 +47,10 @@ const USER_CONFIG = {
       oneTalk: true,
       
       // 土味情话(彩虹屁), 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-      earthyLoveWords: true,
+      earthyLoveWords: false,
       
       // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-      momentCopyrighting: true,
+      momentCopyrighting: false,
       
       // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
       poisonChickenSoup: true,
@@ -64,7 +64,7 @@ const USER_CONFIG = {
     
       /** 生日消息和节日消息 */
       // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-      birthdayMessage: true,
+      birthdayMessage: false,
     
       /** 学生课表 */
       // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -108,13 +108,13 @@ const USER_CONFIG = {
     USERS: [
       {
         // 想要发送的人的名字
-        name: '用户0',
+        name: '测试车主',
         // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
         // 使用其他通道时，请严格按照各个通道的教程进行填写
         id: 'o9Hve6sE_MZL9TAPTqL5NwodXlj4',
         // 使用微信测试号：你想对他发送的模板消息的模板ID
         // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-        useTemplateId: 'Iym9HUC5WanN9veO3e8Zz306BEGLR1MtP23isgZJUfk',
+        useTemplateId: 'g5NKk7vG9U7f77HYGVYTrF81uTA_bELRiAP4qd4Od-c',
         // 所在省份或城市，也可以不填
         province: '',
         // 所在城市或县区
@@ -266,7 +266,7 @@ const USER_CONFIG = {
   
     // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
     // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-    CALLBACK_TEMPLATE_ID: 'edeOqn2SrZllL8ONBlpgdrBseaUBQcHXgfMXWydkz1Q',
+    CALLBACK_TEMPLATE_ID: 'sEX0UFuOQgXiAdzH4qVdauNg19jcUwgq_7fBGRKxlBE',
   
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
