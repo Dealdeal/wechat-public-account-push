@@ -68,7 +68,7 @@ const USER_CONFIG = {
     
       /** 学生课表 */
       // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-      courseSchedule: true,
+      courseSchedule: false,
     },
     
     TIAN_API: {
@@ -144,8 +144,8 @@ const USER_CONFIG = {
         ],
         // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
         customizedDateList: [
-//           // 在一起的日子
-//           { keyword: 'love_day', date: '2022-09-08' },
+          // 在一起的日子
+          { keyword: 'love_day', date: '2022-09-08' },
 //           // 结婚纪念日
 //           { keyword: 'marry_day', date: '2022-09-09' },
 //           // 退伍日
