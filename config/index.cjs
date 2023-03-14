@@ -352,16 +352,16 @@ const USER_CONFIG = {
      * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
      * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }}
      * */
-    // CUSTOMIZED_DATE_LIST: [
-    //   // 在一起的日子
-    //   { keyword: 'love_day', date: '2022-09-08' },
+    CUSTOMIZED_DATE_LIST: [
+      // 新车纪念日
+      { keyword: 'love_day', date: '2022-09-08' },
     //   // 结婚纪念日
     //   { keyword: 'marry_day', date: '2022-09-09' },
     //   // 退伍日
     //   { keyword: 'ex_day', date: '2022-09-10' }
     //   // 你可以不断按格式往下增加
     //   // ...
-    // ],
+    ],
     
     // 默认的课表配置
     COURSE_SCHEDULE: null,
